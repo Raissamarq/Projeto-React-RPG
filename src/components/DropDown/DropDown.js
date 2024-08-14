@@ -9,9 +9,10 @@ const DropDown = (props) => {
         required={props.required}
         value={props.value}
       >
-        {props.itens.map((item) => (
-          <option>{item}</option>
-        ))}
+        <option value=""></option>
+        {props.itens.map((item) => {
+          return <option key={item}>{item}</option>;
+        })}
       </select>
     </div>
   );

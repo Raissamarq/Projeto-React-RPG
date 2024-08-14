@@ -29,7 +29,6 @@ function App() {
 
   const [personas, setPersonas] = useState([]);
   const toNewPersona = (persona) => {
-    console.log(persona);
     setPersonas([...personas, persona]);
   };
 
@@ -47,7 +46,7 @@ function App() {
           nome={time.nome}
           firstColor={time.firstColor}
           secondColor={time.secondColor}
-          personas={personas.filter(persona => persona.time === time.nome)}
+          personas={personas.filter((persona) => persona.time === time.nome)}
         />
       ))}
     </div>

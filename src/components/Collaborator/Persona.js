@@ -1,9 +1,9 @@
 import "./Persona.css";
 
-const Persona = ({ nome, imagem, cargo }) => {
+const Persona = ({ nome, imagem, cargo, backgroundColor }) => {
   return (
     <div className="persona">
-      <div className="cabecalho">
+      <div className="cabecalho" style={{ backgroundColor: backgroundColor }}>
         <img src={imagem} alt={nome} />
       </div>
       <div className="rodape">

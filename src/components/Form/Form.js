@@ -4,7 +4,6 @@ import DropDown from "../DropDown/DropDown";
 import Button from "../Button/Button";
 import React, { useState } from "react";
 
-
 const Form = (props) => {
   const [nome, setNome] = useState("");
   const [cargo, setCargo] = useState("");
@@ -13,13 +12,16 @@ const Form = (props) => {
 
   function onSave(evento) {
     evento.preventDefault();
-    console.log("FOIIIII <3", nome, cargo, imagem, time);
     props.onPersonaRegistered({
       nome,
       cargo,
       imagem,
       time,
     });
+    setNome("");
+    setCargo("");
+    setImagem("");
+    setTime("");
   }
 
   return (
