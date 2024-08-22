@@ -5,10 +5,12 @@
 }
 
 .dropdown select {
-  background-color: #fff;
+  background-color: #dec398;
+  color: rgba(149, 149, 149, 0.884);
   box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.01);
   width: 100%;
   border: none;
+  border-radius: 15px;
   font-size: 24px;
   padding: 24px;
   box-sizing: border-box;

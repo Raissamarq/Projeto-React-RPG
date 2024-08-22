@@ -6,24 +6,29 @@ import Time from "./components/Time/Time";
 function App() {
   const times = [
     {
-      nome: "Duelistas",
-      firstColor: "#c25757",
-      secondColor: "#ff9d9d",
+      nome: "Guerreiro",
+      firstColor: "#240000",
+      secondColor: "#4f0303",
     },
     {
-      nome: "Controlador",
-      firstColor: "#c2bd57",
-      secondColor: "#fdff9d",
+      nome: "Mago",
+      firstColor: "#8e5fbc",
+      secondColor: "#3e034f",
     },
     {
-      nome: "Iniciador",
-      firstColor: "#6757c2",
-      secondColor: "#b09dff",
+      nome: "Ladino",
+      firstColor: "#181818",
+      secondColor: "#2c2c2c",
     },
     {
-      nome: "Sentinela",
-      firstColor: "#62c257",
-      secondColor: "#9dff9d",
+      nome: "Clérigo",
+      firstColor: "#f3e659",
+      secondColor: "#b6ac41",
+    },
+    {
+      nome: "Arqueiro",
+      firstColor: "#105109",
+      secondColor: "#073402",
     },
   ];
 

@@ -27,7 +27,7 @@ const Form = (props) => {
   return (
     <section className="form">
       <form onSubmit={onSave}>
-        <h2>Preencha os dados para criar o card</h2>
+        <h2>Preencha os dados para criar o card do seu personagem: </h2>
         <TextField
           required={true}
           label="Nome"
@@ -36,21 +36,21 @@ const Form = (props) => {
           onChange={(value) => setNome(value)}
         ></TextField>
         <TextField
-          required={true}
-          label="Cargo"
-          placeholder="Digite o cargo"
-          value={cargo}
-          onChange={(value) => setCargo(value)}
-        ></TextField>
-        <TextField
           label="Imagem"
           placeholder="Digite endereço da imagem"
           value={imagem}
           onChange={(value) => setImagem(value)}
         ></TextField>
+        <TextField
+          required={true}
+          label="Habilidade"
+          placeholder="Digite o cargo"
+          value={cargo}
+          onChange={(value) => setCargo(value)}
+        ></TextField>
         <DropDown
           required={true}
-          label="Time"
+          label="Classe"
           itens={props.times}
           value={time}
           onChange={(value) => setTime(value)}
