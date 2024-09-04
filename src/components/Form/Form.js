@@ -55,6 +55,10 @@ const Form = (props) => {
           value={time}
           onChange={(value) => setTime(value)}
         />
+        <h3>
+          *Para adicionar imagem: Copie o endereço da imagem e digite .png no
+          final
+        </h3>
         <Button>Criar Card</Button>
       </form>
     </section>
