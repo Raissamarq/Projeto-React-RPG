@@ -44,7 +44,7 @@ const Form = (props) => {
         <TextField
           required={true}
           label="Habilidade"
-          placeholder="Digite o cargo"
+          placeholder="Digite as habilidades"
           value={cargo}
           onChange={(value) => setCargo(value)}
         ></TextField>

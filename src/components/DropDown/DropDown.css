@@ -6,7 +6,7 @@
 
 .dropdown select {
   background-color: #dec398;
-  color: rgba(149, 149, 149, 0.884);
+  color: (0, 0, 0, 0.01);
   box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.01);
   width: 100%;
   border: none;
